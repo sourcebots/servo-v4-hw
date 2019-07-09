@@ -1,4 +1,4 @@
-v 20140308 2
+v 20130925 2
 C 47000 44500 0 0 0 title-A1.sym
 T 73100 45300 9 28 1 0 0 0 1
 Servo Board v4 - Mechanical
@@ -130,4 +130,22 @@ T 61400 52600 5 10 1 1 0 0 1
 value=sr-nothing
 T 61400 52300 5 10 1 1 0 0 1
 comment=case.dxf in 3mm clear acrylic
+}
+C 65500 52300 1 0 0 fiducial-1.sym
+{
+T 65500 53000 5 10 0 0 0 0 1
+device=none
+T 65507 53400 5 10 0 0 0 0 1
+footprint=FIDUCIAL_sr.fp
+T 65507 52800 5 10 1 1 0 0 1
+refdes=FID1
+}
+C 65500 51400 1 0 0 fiducial-1.sym
+{
+T 65500 52100 5 10 0 0 0 0 1
+device=none
+T 65507 52500 5 10 0 0 0 0 1
+footprint=FIDUCIAL_sr.fp
+T 65507 51900 5 10 1 1 0 0 1
+refdes=FID2
 }
